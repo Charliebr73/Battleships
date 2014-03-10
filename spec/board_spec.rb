@@ -14,7 +14,5 @@ require '../lib/player'
 			expect(board.rows.length).to eq(10)
 			board.rows.each { |a| expect(a.length).to eq(10) }
 		end
-
-
-
+		
 	end
