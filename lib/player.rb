@@ -4,8 +4,7 @@ class Player
 	attr_accessor :board
 
 	def initialize(name)
-    @name = name
-    # @board = Board.new(self)
+    @name = "name"
   end
 
 end
